@@ -8,6 +8,7 @@ public class BOJ_2438_fast {
 	static StringTokenizer tokens; //한줄에 여러개 입력받을 경우 스트링 쪼개줌.
 	static StringBuilder sb = new StringBuilder();
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+	//class, instance, static 
 	
 	public static void main(String[] args) throws IOException {
 		int num;
