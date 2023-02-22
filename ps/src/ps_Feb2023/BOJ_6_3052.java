@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.StringTokenizer;
 
-public class BOJ_3052 {
+public class BOJ_6_3052 {
 
 	static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	static StringBuilder sb = new StringBuilder();
