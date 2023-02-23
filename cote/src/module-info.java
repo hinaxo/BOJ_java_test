@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author JEHEO
+ *
+ */
+module cote {
+}
