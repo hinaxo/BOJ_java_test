@@ -23,9 +23,9 @@ public class BOJ_24444_5_BFS {
 	
 	public static void main(String[] args) throws IOException {
 		tokens = new StringTokenizer(bf.readLine());
-		N = Integer.parseInt(tokens.nextToken());
-		M = Integer.parseInt(tokens.nextToken());
-		R = Integer.parseInt(tokens.nextToken());
+		N = Integer.parseInt(tokens.nextToken()); //정점의 수 
+		M = Integer.parseInt(tokens.nextToken()); //간선의 수 
+		R = Integer.parseInt(tokens.nextToken()); //시작 정점 
 	
 		visited = new int[N + 1];
 		
@@ -36,8 +36,8 @@ public class BOJ_24444_5_BFS {
 			int a, b;
 			tokens = new StringTokenizer(bf.readLine());
 			
-			a = Integer.parseInt(tokens.nextToken());
-			b = Integer.parseInt(tokens.nextToken());
+			a = Integer.parseInt(tokens.nextToken()); //간선 정보 
+			b = Integer.parseInt(tokens.nextToken()); //간선 정보 
 			
 			graph.get(a).add(b);
 			graph.get(b).add(a);
